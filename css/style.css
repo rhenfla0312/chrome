@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+/* 랜덤 배경화면 */
+.bg {
+  display: block;
+  margin: 0 auto;
+  position:absolute;
+  width:100%;
+  height:100%;
+  left: 0px;
+  top: 0px;
+  right:0px;
+  bottom:0px;
+  z-index: -1;
+  opacity:80%;
+}
+
+/* 랜덤 명언 */
+.text {
+  /* text-align: center; */
+  /* margin: auto; */
+  position: absolute;
+  bottom: 20px;
+  font-size: 20px;
+  /* width: 300px; */
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.quote {
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+}
+
+
+/* 시계 */
+.clock {
+  display: flex;
+  justify-content: center; 
+  width: 100%;
+  margin-top: 200px;
+  /* position: absolute; */
+  /* left: 650px; */
+  color: #fff;
+  /* top: 150px; */
+  font-size: 130px;
+  /* margin: 0 auto; */
+
+}
+
+/* input name */
+.form {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  /* margin-top: 200px; */
+}
+
+/* ul */
+.ul {
+  position: absolute;
+  left: 45%;
+  top: 55%;
+
+}
+
+/* user hidden */
+.hidden {
+  display: none;
+}
+
+h1 {
+  position: absolute;
+  left: 48%;
+  top: 370px;
+}
+
+
+/* user form */
+.user-form {
+  /* display: flex;
+  justify-content: center; */
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  top: 400px;
+}
+
+.user-form > input {
+  width: 280px;
+  height: 40px;
+  font-size: 30px;
+  outline : none;
+  position: absolute;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  color: #000;
+  box-sizing: border-box;
+  font-family: 'Arvo';
+  /* font-size: 18px; */
+  text-align: center;
+  left: 48%;
+  margin: -25px 0 0 -100px;
+  padding: 10px 0px;
+  outline: none;
+}
+
+/* user click form */
+.todo-form-input {
+  position: absolute;
+  text-align: center;
+  height: 30px;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  color: #000;
+  box-sizing: border-box;
+  font-family: 'Arvo';
+  font-size: 18px;
+  height: 50px;
+  left: 50%;
+  margin: -25px 0 0 -100px;
+  padding: 10px 0px;
+  width: 200px;
+  outline: none;
+}
+
+
+
+/* weather */ 
+#weather {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 20px;
+}
